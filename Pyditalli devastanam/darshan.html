@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="home.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <title>Darshan</title>
+</head>
+
+<body>
+    <!-- It is heading -->
+    <div class="d-flex justify-content-center d_heading"
+        style="background-image: url(./images/background2.jpg); background-repeat: no-repeat; background-size: 100% 100%; align-items: center;">
+        <div class="stamp">
+            <img src="./images/ap-endowment-1024x768.png" alt="" style="position: absolute; height: 100%; width: 100%;">
+        </div>
+        <h3>Shri Pyditalli Trust, Vizianagram</h3>
+    </div>
+
+    <nav class="navbar navbar-expand-lg nav_online">
+        <div class="container-fluid ">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <ul class="navbar-nav m-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Darshan.html">Darshan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pooja.html">Pooja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accommodation.html">Accommodation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prasadam.html">Prasadam</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donation.html">Donation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class=" m-5 mb-0">
+        <h4 style="color: rgb(237, 74, 15); line-height: 0.5; font-family: Arial, Helvetica, sans-serif;">Darshan
+            <hr>
+        </h4>
+
+        <form action="">
+            <div class="row row-cols-1">
+                <div class="row">
+                    <div class="col-sm-1 col-12"><label for="date">Date<sup class="text-danger">*</sup></label></div>
+                    <div class="col-sm-2 col-12"><input type="date" required></div>
+                    <div class="col-sm-1 col-12"><label for="slot">Slot<sup class="text-danger">*</sup></label></div>
+                    <div class="col-sm-2 col-12"><input type="time" required></div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-sm-1 col-12">Number of Persons<sup class="text-danger">*</sup></div>
+                    <div class="col-sm-2 col-12">
+                        <span>Male</span>
+                        <input type="number" style="width: 40px;">
+                        <span>Female</span>
+                        <input type="number" style="width: 40px;">
+                    </div>
+                    <div class="col-sm-1 col-12"><label for="total_amount">Total Amount(&#8377;)<sup
+                                class="text-danger">*</sup></label></div>
+                    <div class="col-sm-2 col-12"><input type="text"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="m-5">
+        <h4 style="color: rgb(237, 74, 15); line-height: 0.5; font-family: Arial, Helvetica, sans-serif;">Primary
+            Devotee Details
+            <hr>
+        </h4>
+        <form action="">
+            <div class="row">
+                <div class="col-sm-2 col-12">
+                    <label for="name">Name<sup class="text-danger">*</sup></label><br>
+                    <input type="text">
+                </div>
+                <div class="col-sm-2 col-12">
+                    <label for="age">Age<sup class="text-danger">*</sup></label><br>
+                    <input type="number">
+                </div>
+                <div class="col-sm-2 col-12">
+                    <label for="gender">Gender<sup class="text-danger">*</sup></label><br>
+                    <input type="text">
+                </div>
+                <div class="col-sm-2 col-12">
+                    <label for="photoIdProof">Photo Id Proof<sup class="text-danger">*</sup></label><br>
+                    <select name="photoIdProof" id="photoIdProof" form="photoIdProof" placeholder=" " style="width: 100%;">
+                        <option value="aadhar">Aadhar</option>
+                        <option value="pan">Pan Card</option>
+                        <option value="ration_card">Ration Card</option>
+                        <option value="passport">Passport</option>
+                      </select>
+                </div>
+                <div class="col-sm-2 col-12">
+                    <label for="idNumber">Id Card Number<sup class="text-danger">*</sup></label><br>
+                    <input type="text">
+                </div>
+            </div>
+        </form>
+        <br>
+        <button type="submit">Login</button>
+    </div>
+    
+    <div class="m-5 ">
+        <h5><b class="font">Note :</b></h5>
+        <p>- Fields marked <sup class="text-danger">*</sup> are mandatory</p>
+        <p><b class="font">- At the time of verification all the devotees should produce same original photo ids furnished at the time of booking. devotees will not be allowed to avail the services in case of any mis-match.</b></p> 
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid bg-danger">
+
+        <div class="row row-cols-1 ">
+            <div class="col row text-light mt-1">
+                <div class="col-lg-2  col-12">Copyright & Disclaimer</div>
+                <div class="col-lg-2 col-12">Contact Us</div>
+                <div class="col-lg-2 col-12">Terms & Conditions</div>
+                <div class="col-lg-1 col-12">FAQ's</div>
+                <div class="col-lg-1 col-12">Feedback</div>
+                <div class="col-lg-2 col-12">Information Centers</div>
+                <div class="col-lg-2 col-12 row mx-0 p-0">
+                    <div class="col-lg-2 col-12"><img src="./images/icons8-facebook-f-24.png" alt=""></div>
+                    <div class="col-lg-2 col-12"><img src="./images/icons8-instagram-241.png" alt=""></div>
+                    <div class="col-lg-2 col-12"><img src="./images/icons8-twitter-241.png" alt=""></div>
+                    <div class="col-lg-2 col-12"><img src="./images/icons8-youtube-241.png" alt=""></div>
+                </div>
+            </div>
+            <div class="col-12 text-light">
+                <hr>
+            </div>
+            <div class="col text-light text-center p-0">
+                <p class=" m-1">@Copyright Sri Sri Sri Pyditalli Trust, Vizianagaram dist, Andhra Pradesh Pin
+                    code-535001</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

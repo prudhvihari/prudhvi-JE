@@ -1,0 +1,222 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#myModal {
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.modal-content {
+    border-radius: 0px;
+}
+
+.modal-header {
+    border-radius: 0px;
+    text-align: center;
+}
+
+.modal-body {
+    color: black;
+    font-size: large;
+    background-color: beige;
+}
+
+.stamp {
+    position: relative;
+    width: 80px;
+    height: 60px;
+}
+
+.heading {
+    align-items: center;
+    color: orange;
+}
+
+.Home_nav {
+    background-color: rgb(245, 68, 68);
+    background-image: linear-gradient(90deg, rgb(255, 72, 0), yellow 200%);
+}
+
+.Home_nav .nav-link {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Home_nav .nav-link:focus,
+.Home_nav .nav-item .nav-link:hover,
+.Home_nav .nav-item .dropdown-menu a:hover {
+    background-color: rgb(202, 203, 124);
+    color: black;
+}
+
+.Home_nav .active {
+    color: black;
+    background-color: rgb(202, 203, 124);
+}
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;
+    background-color: white !important;
+}
+
+.grid1 {
+    border-right: solid black 2px;
+}
+
+@media (max-width: 1000px) {
+    .grid1 {
+        border: none;
+    }
+}
+
+.more {
+    height: 30%;
+    width: 30%;
+    border-radius: 7px;
+    background-color: rgb(207, 121, 55);
+    border: none;
+    color: white;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+}
+
+.online-services {
+    background-image: url(./images/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div a img {
+    border: solid #FCEA19 2px;
+    border-radius: 50%;
+}
+
+.donation {
+    width: 15%;
+    height: 45px;
+    background-color: rgb(246, 131, 43);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.btn,
+.btn:hover {
+    background-color: #e3950f;
+    color: white;
+}
+
+.mat1 {
+    background-color: rgb(237, 140, 13);
+}
+
+.mat3 {
+    background-color: rgb(239, 181, 34);
+}
+
+.mat2 {
+    background-color: rgb(239, 206, 162);
+}
+
+.mat4 {
+    background-color: rgb(234, 211, 146);
+}
+
+div p img {
+    float: right;
+    padding-left: 0;
+}
+
+div p,
+.cards p b,
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    position: relative;
+}
+
+.festival_band {
+    background-color: black;
+    color: rgb(230, 117, 31);
+    border-left: solid blue 5px;
+    width: 35%;
+    position: absolute !important;
+    bottom: 40px;
+    left: 40px;
+    border-radius: 5px;
+}
+
+.festival_band_1 {
+    display: none;
+    color: rgb(230, 117, 31);
+}
+
+@media screen and (max-width: 800px) {
+    .box {
+        display: none;
+    }
+
+    .festival_band_1 {
+        display: block;
+    }
+}
+
+tr td {
+    text-align: left;
+}
+
+.nav_online {
+    background-color: rgba(233, 164, 52, 0.567);
+}
+
+.nav_online .nav-link {
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.nav_online .nav-link:focus,
+.nav_online .nav-link:focus,
+.nav_online .nav-item .nav-link:hover,
+.nav_online .active {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+.pja .row {
+    margin-top: 5px;
+}
+
+.points {
+    line-height: 0.5;
+}
+
+.pja select,
+.pja input[type="text"],
+.pja input[type="date"],
+.pja input[type="number"] {
+    height: 35px;
+    width: 220px;
+}
+
+.pja button,
+button {
+    border: none;
+    background-color: #e3950f;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+}
